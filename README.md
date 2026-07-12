@@ -63,8 +63,6 @@ python3 -m http.server 8000
 | A | `@` | 185.199.108.153 · 185.199.109.153 · 185.199.110.153 · 185.199.111.153 |
 | CNAME | `www` | `rackalabs.github.io` |
 
-**Pendências de conteúdo** — URLs dos perfis (Instagram, LinkedIn, Behance) no rodapé, marcadas com `TODO` no `index.html`.
-
 </details>
 
 <div align="center">
