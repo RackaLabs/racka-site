@@ -291,11 +291,14 @@ p { text-wrap: pretty; }
   color: var(--mist);
 }
 
-/* palco do device */
+/* palco do carneiro */
 .hero-stage {
   position: relative;
   justify-self: center;
   width: min(100%, 460px);
+  aspect-ratio: 1;
+  display: grid;
+  place-items: center;
 }
 .hero-rings {
   position: absolute; inset: 50% auto auto 50%;
@@ -317,14 +320,20 @@ p { text-wrap: pretty; }
 .hero-rings__spark--b { bottom: 16%; left: 17%; width: 7px; height: 7px; }
 @keyframes spin { to { rotate: 360deg; } }
 
-.device { position: relative; z-index: var(--z-content); width: 100%; }
+.hero-ram {
+  position: relative;
+  z-index: calc(var(--z-content) + 1);
+  width: 76%;
+  height: auto;
+  filter: drop-shadow(0 0 56px oklch(1 0 0 / 0.14));
+}
 
 .hero-block {
   position: absolute;
-  left: -8%; top: 40%;
-  width: 60%; height: clamp(64px, 18%, 104px);
+  left: -6%; top: 62%;
+  width: 56%; height: clamp(60px, 16%, 92px);
   background: var(--orange);
-  z-index: calc(var(--z-content) + 1);
+  z-index: var(--z-content);
 }
 .hero-block i {
   position: absolute; right: 18%; top: -34px;
