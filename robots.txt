@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://racka.com.br/sitemap.xml
