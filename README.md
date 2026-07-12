@@ -8,7 +8,7 @@
 
 Desenvolvemos soluções digitais disruptivas que conectam marcas, pessoas e futuros.
 
-[racka.com.br](https://racka.com.br) · [hey@racka.com.br](mailto:hey@racka.com.br) · Curitiba, PR · Est. 2022
+[racka.com.br](https://racka.com.br) · [hey@racka.com.br](mailto:hey@racka.com.br) · Est. 2022
 
 </div>
 
