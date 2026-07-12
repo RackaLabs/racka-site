@@ -328,22 +328,26 @@ p { text-wrap: pretty; }
   filter: drop-shadow(0 0 56px oklch(1 0 0 / 0.14));
 }
 
-.hero-block {
+/* esconde os pontos dos anéis que cruzam o rosto do carneiro
+   (mesma cor do fundo, invisível por si só) */
+.hero-ram-mask {
   position: absolute;
-  left: -6%; top: 62%;
-  width: 56%; height: clamp(60px, 16%, 92px);
-  background: var(--orange);
+  left: 50%; top: 50%;
+  translate: -50% -50%;
+  width: 84%; height: 54%;
+  border-radius: 50%;
+  background: var(--ink-950);
   z-index: var(--z-content);
 }
-.hero-block i {
-  position: absolute; right: 18%; top: -34px;
-  width: 2px; height: 34px; background: var(--white);
-}
-.hero-block::after {
-  content: ""; position: absolute; right: 18%; top: -38px;
-  translate: -50% 0;
-  width: 8px; height: 8px; border-radius: 50%;
-  background: var(--white); left: auto;
+
+/* retângulo laranja: abaixo do logo, vazando pela borda direita da página
+   (o overflow do .hero corta na largura da viewport) */
+.hero-block {
+  position: absolute;
+  left: auto; right: -50vw; top: 88%;
+  width: 78vw; height: clamp(60px, 16%, 92px);
+  background: var(--orange);
+  z-index: var(--z-content);
 }
 
 .dot-grid { width: 76px; color: oklch(1 0 0 / 0.4); }
