@@ -32,7 +32,7 @@ Nosso produto próprio: **[Viela](https://viela.racka.com.br)** — comunidade, 
 
 ## Vamos criar algo incrível juntos?
 
-Fale com o time: **[hey@racka.com.br](mailto:hey@racka.com.br)** · +55 41 98827-9915
+Fale com o time: **[hey@racka.com.br](mailto:hey@racka.com.br)**
 
 ---
 

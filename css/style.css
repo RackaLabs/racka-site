@@ -647,7 +647,6 @@ p { text-wrap: pretty; }
 }
 .footer-col ul { list-style: none; padding: 0; display: flex; flex-direction: column; gap: 10px; }
 .footer-col li { font-size: 0.9375rem; }
-.footer-col a[href^="tel"] { white-space: nowrap; }
 .footer-col a { text-decoration: none; transition: color 0.25s var(--ease-out); }
 .footer-col a:hover, .footer-col a:focus-visible { color: var(--orange); }
 
